@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Password Generator by efroN</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href='https://fonts.googleapis.com/css2?family=Poppins:wght@700;400&display=swap' rel='stylesheet'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous"></head>
+<body>
+	<div id="notification">
+		<i class="fas fa-info-circle"></i>
+		<span id="notification-message">This is a notification</span>
+	</div>
+	<div class="container">
+		<h1>Password Generator</h1>
+		<h2>Generate a strong password to save your accounts!</h2>
+		<p id="password"> </p>
+		<div class="progress-bar">
+			<div class="progress"></div>
+		</div>
+		<p id="strong"></p>
+		<button onclick="generatePassword()">Generate</button>
+		<button onclick="copyPassword()">Copy</button>
+		<p>Build in 💙 by efroN</p>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
